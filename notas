@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float nota;
+
+    printf("Introduce la nota de alumno\n");
+    scanf("%f", &nota);
+
+    if (nota < 5)
+    {
+        printf("suspenso");
+    }
+    else if (nota == 6)
+    {
+        printf("BIEN");
+    }
+    else if (nota == 7 || nota == 8)
+    {
+        printf("Notable");
+    }
+    else if (nota == 9 || nota == 10)
+    {
+        printf("Sobresaliente");
+    }
+    else {
+         printf("Nota introducida no es valida");
+    }
+
+
+}
